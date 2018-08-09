@@ -40,4 +40,9 @@
       @include headerCurrent;
     }
   }
+  &-throughfiftynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
 }
