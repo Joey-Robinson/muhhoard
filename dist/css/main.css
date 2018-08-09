@@ -37,31 +37,15 @@ a {
   width: 100%;
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(10, 1fr); }
+  grid-template-columns: repeat(11, 1fr); }
   .header a {
     justify-self: center;
     font-size: 1.8rem;
-    width: 1rem; }
-  .header-throughnine {
-    grid-column: 1; }
-  .header-throughnineteen {
-    grid-column: 2; }
-  .header-throughtwentynine {
-    grid-column: 3; }
-  .header-throughthirtynine {
-    grid-column: 4; }
-  .header-throughfourtynine {
-    grid-column: 5; }
-  .header-throughfiftynine {
-    grid-column: 6; }
-  .header-throughsixtynine {
-    grid-column: 7; }
-  .header-throughseventynine {
-    grid-column: 8; }
-  .header-througheightynine {
-    grid-column: 9; }
-  .header-throughnightynine {
-    grid-column: 10; }
+    width: 2rem; }
+  .header-home__current {
+    text-align: center;
+    background: white;
+    color: #222; }
 
 .main-img img,
 .imgs img {

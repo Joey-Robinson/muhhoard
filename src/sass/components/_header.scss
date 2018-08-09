@@ -4,40 +4,17 @@
   width: 100%;
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(11, 1fr);
   & a {
     justify-self: center;
     font-size: 1.8rem;
-    width: 1rem;
+    width: 2rem;
   }
-  &-throughnine {
-    grid-column: 1;
-  }
-  &-throughnineteen {
-    grid-column: 2;
-  }
-  &-throughtwentynine {
-    grid-column: 3;
-  }
-  &-throughthirtynine {
-    grid-column: 4;
-  }
-  &-throughfourtynine {
-    grid-column: 5;
-  }
-  &-throughfiftynine {
-    grid-column: 6;
-  }
-  &-throughsixtynine {
-    grid-column: 7;
-  }
-  &-throughseventynine {
-    grid-column: 8;
-  }
-  &-througheightynine {
-    grid-column: 9;
-  }
-  &-throughnightynine {
-    grid-column: 10;
+  &-home {
+    &__current {
+      text-align: center;
+      background: white;
+      color: #222;
+    }
   }
 }
