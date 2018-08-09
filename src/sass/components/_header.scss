@@ -45,4 +45,24 @@
       @include headerCurrent;
     }
   }
+  &-throughsixtynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
+  &-throughseventynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
+  &-througheightynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
+  &-throughnightynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
 }
