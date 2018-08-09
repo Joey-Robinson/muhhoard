@@ -7,4 +7,8 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
+  &-entrance {
+    grid-column: 3;
+    grid-row: 3;
+  }
 }
