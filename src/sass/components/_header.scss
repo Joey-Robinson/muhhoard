@@ -35,4 +35,9 @@
       @include headerCurrent;
     }
   }
+  &-throughfourtynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
 }
