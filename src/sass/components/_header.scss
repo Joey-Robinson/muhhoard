@@ -25,4 +25,9 @@
       @include headerCurrent;
     }
   }
+  &-throughtwentynine {
+    &__current {
+      @include headerCurrent;
+    }
+  }
 }
