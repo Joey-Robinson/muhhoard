@@ -5,10 +5,12 @@
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr;
   &-entrance {
-    grid-column: 3;
-    grid-row: 3;
+    align-self: center;
+    & h1 {
+      font-size: 15rem;
+      text-shadow: .75rem .75rem black;
+    }
   }
 }
