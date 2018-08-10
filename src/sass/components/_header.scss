@@ -9,6 +9,11 @@
   font-size: 2rem;
   & a {
     justify-self: center;
+    &:hover {
+      color: #222;
+      background: $headerWhite;
+      transition: all .35s cubic-bezier(.02, .48, .63, .12);
+    }
   }
   &-home {
     &__current {
