@@ -7,7 +7,7 @@ const imageClick = (e) => {
 
 const current = document.getElementById('current');
 const imgs = document.querySelectorAll('.imgs img');
-const opacity = 0.6;
+const opacity = 0.35;
 
 imgs[0].style.opacity = opacity;
 imgs.forEach((img) => img.addEventListener('click', imageClick));
